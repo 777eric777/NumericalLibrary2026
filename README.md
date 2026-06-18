@@ -6,7 +6,7 @@ computations: linear systems, interpolation, approximation, integration,
 ordinary differential equation (ODE) solvers and nonlinear equation solvers.
 
 Repository layout
-
+```text
 NumericalLibrary
 ├── include/             # Public headers for each module
 │   ├── LinearSystems.h
@@ -25,7 +25,7 @@ NumericalLibrary
 ├── tests/               # unit tests and test runner
 ├── examples/            # example programs demonstrating library usage
 └── README.md			 # [You're here!]
-
+```
 Core modules and notable APIs
 
 - LinearSystems
