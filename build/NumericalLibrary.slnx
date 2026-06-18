@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6a6b8737-a59b-3989-9a09-31f29d3bb6ad" DefaultStartup="true">
+		<BuildDependency Project="NumericalLibrary.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="demo_odes.vcxproj"/>
+		<BuildDependency Project="demo_root_finding.vcxproj"/>
+		<BuildDependency Project="tests_runner.vcxproj"/>
+		<BuildDependency Project="usage_example.vcxproj"/>
+	</Project>
+	<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fa0bd1a2-2b2e-379b-a4eb-31ad061545ef">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="NumericalLibrary.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0dbed352-de88-366e-9fdc-6827453dc2ee">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6ff0aaa9-fc0d-36b6-be38-e0025260f4d6"/>
+	<Project Path="demo_odes.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="daff3de4-a70b-309c-869b-6de8b3ae63bf">
+		<BuildDependency Project="NumericalLibrary.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="demo_root_finding.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="badd83ee-8ba3-3248-aa0f-dde1a9779088">
+		<BuildDependency Project="NumericalLibrary.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="tests_runner.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f210dd30-3bce-3581-a786-6435c58979cb">
+		<BuildDependency Project="NumericalLibrary.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="usage_example.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c9751424-cc62-3041-94a7-1478f8e94b71">
+		<BuildDependency Project="NumericalLibrary.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+</Solution>

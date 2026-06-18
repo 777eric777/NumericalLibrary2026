@@ -1,0 +1,8 @@
+C:/Users/Eric/Desktop/STUDIA_IV/MN/MNv11/build/CMakeFiles/NumericalLibrary.dir
+C:/Users/Eric/Desktop/STUDIA_IV/MN/MNv11/build/CMakeFiles/usage_example.dir
+C:/Users/Eric/Desktop/STUDIA_IV/MN/MNv11/build/CMakeFiles/tests_runner.dir
+C:/Users/Eric/Desktop/STUDIA_IV/MN/MNv11/build/CMakeFiles/demo_root_finding.dir
+C:/Users/Eric/Desktop/STUDIA_IV/MN/MNv11/build/CMakeFiles/demo_odes.dir
+C:/Users/Eric/Desktop/STUDIA_IV/MN/MNv11/build/CMakeFiles/INSTALL.dir
+C:/Users/Eric/Desktop/STUDIA_IV/MN/MNv11/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Eric/Desktop/STUDIA_IV/MN/MNv11/build/CMakeFiles/ZERO_CHECK.dir
