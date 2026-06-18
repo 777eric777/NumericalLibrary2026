@@ -12,7 +12,7 @@ NumericalLibrary
 │   ├── LinearSystems.h
 │   ├── Interpolation.h
 │   ├── Approximation.h
-   ├── Integration.h
+|   ├── Integration.h
 │   ├── ODE.h
 │   └── NonlinearEquations.h
 ├── src/                 # Implementation files
